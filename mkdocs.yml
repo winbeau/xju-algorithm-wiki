@@ -31,8 +31,6 @@ theme:
     # ------ Dark and Light Mode ------
 repo_url: https://github.com/winbeau/mkdocs-wiki
 markdown_extensions:
-    - pymdownx.tabbed:
-      alternate_style: true   # 美化 Tab 样式
     - pymdownx.highlight: # Code Block
         linenums: true
         line_spans: __span
