@@ -2,7 +2,9 @@ site_name: XJU Algorithm Wiki
 theme:
     name: material
     features:
-        # - navigation.tabs
+        - navigation.tabs  # 顶部横栏
+        - navigation.sections   # 二级导航展开
+        - navigation.expand     # 自动展开侧边栏
         - navigation.top
         - content.code.copy # Code Block Copy Button
     # ------ Dark and Light Mode ------
@@ -53,7 +55,14 @@ extra_css:
   - https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css
 
 nav:
-    - 首页: index.md
-    - 测试课程:
-        - 课程简介: test-course/intro/main.md
-        - 笔记: test-course/note/main.md
+  - 首页: index.md
+  - 比赛存档:
+      - 2023 XJU Open:
+          - 比赛概览: contests/2023_XJU_Open/index.md
+          - Problem A: contests/2023_XJU_Open/problem_A.md
+          - Problem B: contests/2023_XJU_Open/problem_B.md
+  - 按知识点索引:
+      - 图论: topics/graph.md
+  - 模板 / 常用代码:
+      - 快速输入输出: snippets/fast_io.md
+  - 关于: about.md
