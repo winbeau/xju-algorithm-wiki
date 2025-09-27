@@ -7,6 +7,8 @@ theme:
         - navigation.expand     # 自动展开侧边栏
         - navigation.top
         - content.code.copy # Code Block Copy Button
+    hide:
+        - toc                   # 取消右侧目录
     # ------ Dark and Light Mode ------
     palette:
         # Palette toggle for automatic mode
@@ -29,6 +31,8 @@ theme:
     # ------ Dark and Light Mode ------
 repo_url: https://github.com/winbeau/mkdocs-wiki
 markdown_extensions:
+    - pymdownx.tabbed:
+      alternate_style: true   # 美化 Tab 样式
     - pymdownx.highlight: # Code Block
         linenums: true
         line_spans: __span
@@ -57,10 +61,8 @@ extra_css:
 nav:
   - 首页: index.md
   - 比赛存档:
-      - 2023 XJU Open:
-          - 比赛概览: contests/2023_XJU_Open/index.md
-          - Problem A: contests/2023_XJU_Open/problem_A.md
-          - Problem B: contests/2023_XJU_Open/problem_B.md
+      - 博达校区新生赛[2025-09-27]:
+          - Problem A: contests/2025Sep27/pA.md
   - 按知识点索引:
       - 图论: topics/graph.md
   - 模板 / 常用代码:
