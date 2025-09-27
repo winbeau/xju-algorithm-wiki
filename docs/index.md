@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # XJU Algorithm Wiki
 
 欢迎来到 **XJU Algorithm Wiki**！这里旨在提供一个校内交流学习的平台，也欢迎大家分享自己遇到的好题目
