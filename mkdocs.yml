@@ -61,8 +61,18 @@ nav:
   - 比赛存档:
       - 博达校区新生赛[2025-09-27]:
           - Problem A: contests/2025Sep27/pA.md
+          - Problem B: contests/2025Sep27/pB.md
+          - Problem C: contests/2025Sep27/pC.md
+          - Problem D: contests/2025Sep27/pD.md
+          - Problem E: contests/2025Sep27/pE.md
+          - Problem F: contests/2025Sep27/pF.md
+          - Problem G: contests/2025Sep27/pG.md
+          - Problem H: contests/2025Sep27/pH.md
+          - Problem I: contests/2025Sep27/pI.md
+          - Problem J: contests/2025Sep27/pJ.md
+          - Problem K: contests/2025Sep27/pK.md
   - 按知识点索引:
-      - 图论: topics/graph.md
+
   - 模板 / 常用代码:
-      - 快速输入输出: snippets/fast_io.md
+
   - 关于: about.md
