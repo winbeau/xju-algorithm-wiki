@@ -9,7 +9,11 @@ hide:
 
 给定两个等差数列，求 L，R区间内两数列交集元素的数量
 
+Codeforces 链接 [CF710D](https://codeforces.com/contest/710/problem/D) 
+
 ## 🔑 算法模块
+
+分治
 
 ## 💡 思路分析
 
