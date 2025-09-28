@@ -49,7 +49,7 @@ import sys
 
 for line in sys.stdin:
     a, b = map(int, line.split())
-print(a + b)
+    print(a + b)
 ```
 
 ## ⏱️ 复杂度分析

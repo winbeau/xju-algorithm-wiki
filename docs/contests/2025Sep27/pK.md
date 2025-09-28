@@ -35,11 +35,11 @@ Codeforces 链接: [CF1207F](https://codeforces.com/contest/1207/problem/F)
     
     维护 **`R[x][y]`** 数组记录满足 **`pos % x == y`** 的位置的元素和值
     
-    即维护 **`R[x][pos % x]`** 的值 可知 **`y<=x`**，数组大小 **`R[$\sqrt{maxn}$, $\sqrt{maxn}$]`**
+    即维护 **`R[x][pos % x]`** 的值 可知 **`y<=x`**，数组大小 **R[$\sqrt{maxn}$, $\sqrt{maxn}$]**
     
     操作2：直接返回 **`R[x][y]`** 值
     
-    操作1：修改 x 位置值会导致 **`R[i][x % i]`** 值变化，枚举 **`i ∈ [1, $\sqrt{maxn}$]`**
+    操作1：修改 x 位置值会导致 **`R[i][x % i]`** 值变化，枚举 **i ∈ [1, $\sqrt{maxn}$]**
     
     **注意操作1不论 x 大小均应该维护 `R[x][y]` 数组值**
     
